@@ -12,7 +12,6 @@
 **python osmpalnodesgraph.py nearest_node_tagged "870 broadway" cafe (Windows)** <br/>
 ```
 ```python
-
 **python osmpalnodesgraph.py nearest_node_tagged $'870 broadway' cafe (Mac or Linux)**
 ```
 
