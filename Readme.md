@@ -9,14 +9,14 @@ python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
 <br/>
 
 >>It will then return the cafe nearest to node number 246512355, which is a node in     Union Square in New York <br/>
+<br/>
+
 ```python
 python osmpalnodesgraph.py nearest_node_tagged "870 broadway" cafe (Windows)
 ```
 ```python
 python osmpalnodesgraph.py nearest_node_tagged $'870 broadway' cafe (Mac or Linux)
 ```
-
-
 <br/>
 >>Prints and displays graphically the cafe that's nearest any point at 870 Broadway in New York uses street address and street name combination <br/>
 
