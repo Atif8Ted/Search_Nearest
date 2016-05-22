@@ -6,6 +6,7 @@
 ```python
 python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe 
 ```
+<br/>
 
 >>It will then return the cafe nearest to node number 246512355, which is a node in     Union Square in New York <br/>
 ```python
@@ -21,19 +22,23 @@ python osmpalnodesgraph.py nearest_node_tagged $'870 broadway' cafe (Mac or Linu
 
 ```python
 python osmpalnodesgraph.py farthest_node_tagged "10010, new york" cafe
-````
+```
+<br/>
 
->>Prints and displays graphically the cafe that's farthest away from any point at the 10010 zip code. Uses zip code/postal code and city combination.<br/>
+>>Prints and displays graphically the cafe that's farthest away from any point at the 10010 zip code. Uses zip code/postal code and city combination. <br/>
+
 
 ```python
 python osmpalnodesgraph.py nearest_node_tagged starbucks hospital
 ```
+<br/>
 
 
 >>Prints the hospital that's nearest to a one word location such as Starbucks.<br/>
 ```python
 python osmpalnodesgraph.py farthest_node_tagged kfc cafe
 ```
+<br/>
 
 >>Prints and displays graphically the cafe that's farthest away from a one word location such as kfc.<br/>
 
@@ -41,6 +46,8 @@ In your command line, IF YOU KNOW A NODE NUMBER TO PROCESS, use any of the follo
 ```python
 python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
  ```
+ <br/>
+ 
  
  
 ![alt text](output.png "Logo Title Text 1")
@@ -51,6 +58,7 @@ python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
 ```python
 python osmpalnodesgraph.py farthest_node_tagged 246512355 cafe
 ```
+<br/>
 
 
 >>>(Prints and displays graphically the cafe farthest to node 246512355 You can enter your own OpenStreetmap node number instead of 246512355. cafe can be replaced with another Openstreetmap amenity such as bar, restaurant, school, etc.)<br/>
