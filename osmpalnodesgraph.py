@@ -28,11 +28,7 @@ def get_tag_value(dic, key):
     """find the value given a key"""
     return dic[key.lower()]
 	
-"""Create your own custom set of tags in osm_dict, a large set of key value pairs can be added here.
-For a full list of tag keys/values that can be added, please
-consult the OSM reference pages such https://taginfo.openstreetmap.org/tags
-Examples of key/values lists can be found at http://wiki.openstreetmap.org/wiki/Key:amenity?uselang=en-US
-and http://wiki.openstreetmap.org/wiki/Key:tourism, etc."""
+"""Create your own custom set of tags in osm_dict, a large set of key value pairs can be added here."""
 osm_dict = {
     'cafe' : 'amenity\': u\'cafe',
     'school' : 'amenity\': u\'school',
