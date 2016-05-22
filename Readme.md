@@ -3,7 +3,7 @@
 ## It also searches for farthest available business facility .
 
 ### Queries are to made in the following ways :
->**python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe** '''
+>**python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe**<br/>
     It will then return the cafe nearest to node number 246512355, which is a node in     Union Square in New York
 >**python osmpalnodesgraph.py nearest_node_tagged "870 broadway" cafe (Windows)**
 
