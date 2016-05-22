@@ -5,8 +5,7 @@ sys.path.append(filelocations.LIB_LOCATION)
 import pyosm, re
 osm = pyosm.OSMXMLFile(filelocations.OSM_DATA_LOCATION)
 
-'''Geocodes a user entered address and returns a node for processing by osmpalnodesgraph.py
-or by osmpalnodesbasic.py. Geocoder will match for query in the following priority: 1. house number and street name '''
+''' Geocoder will match for query in the following priority: 1. house number and street name '''
 '''2. zip code/postal code and city  3. Last option is matching for site name'''
 
 class MatchNode(object):
