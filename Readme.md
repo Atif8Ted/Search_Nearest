@@ -24,11 +24,11 @@ combination.
 
 >In your command line, IF YOU KNOW A NODE NUMBER TO PROCESS, use any of the following commands:
 
- >> +**python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe** <br/>
+ >>**python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe** <br/>
 ![alt text](output.png "Logo Title Text 1")
 
 -->(Prints and displays graphically the cafe nearest to node 246512355 You can enter your own OpenStreetmap node number instead of 246512355. cafe can be replaced with another Openstreetmap amenity such as bar, restaurant, school, etc.)
- >> +**python osmpalnodesgraph.py farthest_node_tagged 246512355 cafe**<br/>
+ >>**python osmpalnodesgraph.py farthest_node_tagged 246512355 cafe**<br/>
 
 
 (Prints and displays graphically the cafe farthest to node 246512355 You can enter your own OpenStreetmap node number instead of 246512355. cafe can be replaced with another Openstreetmap amenity such as bar, restaurant, school, etc.)<br/>
