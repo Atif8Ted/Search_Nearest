@@ -137,7 +137,7 @@ def graphNodes(X1, Y1, X2, Y2, nodeNumber1, nodeNumber2, nodeTag):
 
 
 """Allow user to choose the function in command line
-e.g. python osmpalnodesbasic.py nearest_node_tagged 246512355 cafe"""
+e.g. python nearest_node.py nearest_node_tagged 246512355 cafe"""
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('function')
