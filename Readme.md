@@ -4,7 +4,7 @@
 
 ### Queries are to made in the following ways :
 ```python
-python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe 
+python nearest_node.py nearest_node_tagged 246512355 cafe 
 ```
 <br/>
 
@@ -12,16 +12,16 @@ python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
 <br/>
 
 ```python
-python osmpalnodesgraph.py nearest_node_tagged "870 broadway" cafe (Windows)
+python nearest_node.py nearest_node_tagged "870 broadway" cafe (Windows)
 ```
 ```python
-python osmpalnodesgraph.py nearest_node_tagged $'870 broadway' cafe (Mac or Linux)
+python nearest_node.py nearest_node_tagged $'870 broadway' cafe (Mac or Linux)
 ```
 <br/>
 >>Prints and displays graphically the cafe that's nearest any point at 870 Broadway in New York uses street address and street name combination <br/>
 
 ```python
-python osmpalnodesgraph.py farthest_node_tagged "10010, new york" cafe
+python nearest_node.py farthest_node_tagged "10010, new york" cafe
 ```
 <br/>
 
@@ -29,14 +29,14 @@ python osmpalnodesgraph.py farthest_node_tagged "10010, new york" cafe
 
 
 ```python
-python osmpalnodesgraph.py nearest_node_tagged starbucks hospital
+python nearest_node.py nearest_node_tagged starbucks hospital
 ```
 <br/>
 
 
 >>Prints the hospital that's nearest to a one word location such as Starbucks.<br/>
 ```python
-python osmpalnodesgraph.py farthest_node_tagged kfc cafe
+python nearest_node.py farthest_node_tagged kfc cafe
 ```
 <br/>
 
@@ -44,7 +44,7 @@ python osmpalnodesgraph.py farthest_node_tagged kfc cafe
 
 In your command line, IF YOU KNOW A NODE NUMBER TO PROCESS, use any of the following commands:<br/>
 ```python
-python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
+python nearest_node.py nearest_node_tagged 246512355 cafe
  ```
  <br/>
  
@@ -56,7 +56,7 @@ python osmpalnodesgraph.py nearest_node_tagged 246512355 cafe
 >>>(Prints and displays graphically the cafe nearest to node 246512355 You can enter your own OpenStreetmap node number instead of 246512355. cafe can be replaced with another Openstreetmap amenity such as bar, restaurant, school, etc.)<br/>
 
 ```python
-python osmpalnodesgraph.py farthest_node_tagged 246512355 cafe
+python nearest_node.py farthest_node_tagged 246512355 cafe
 ```
 <br/>
 
