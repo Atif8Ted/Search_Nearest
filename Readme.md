@@ -2,7 +2,7 @@
 
 ## It also searches for farthest available business facility .
 
-### Queries are to made in the following ways :
+### Queries are to be made in the following ways :
 ```python
 python nearest_node.py nearest_node_tagged 246512355 cafe 
 ```
