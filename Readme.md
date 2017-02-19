@@ -50,7 +50,7 @@ python nearest_node.py nearest_node_tagged 246512355 cafe
  
  
  
-![alt text](output.png "Logo Title Text 1")
+![alt text](output.png "Output")
 <br/>
 
 >>>(Prints and displays graphically the cafe nearest to node 246512355 You can enter your own OpenStreetmap node number instead of 246512355. cafe can be replaced with another Openstreetmap amenity such as bar, restaurant, school, etc.)<br/>
